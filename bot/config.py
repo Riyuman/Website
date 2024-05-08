@@ -10,7 +10,7 @@ class Telegram:
     SESSION_STRING = getenv("BQGLLJQALmWOSqr8ZAtaQJjlphCa6MyVEUojdUgH46_ILAMcvOO8X8jn9A5tC8TqEhRUiBBlnusKoJBlrQBm_06S0tSBWVZvd1hABZ2zNm_rCBLzSsE1BWc9N7qSUSVErYmEbB_wxkSTJ8hMnUncKbr4B3C4SK6wLckRy0_xk7bBGg6wh83kc_orOO5j7ZeRFYaXXdUEvf9Isj8hoxOEmey8CVbZUf3pZXU0YyaBybXdHBh6hDlODlJBa8z-fogX19iuVUPeXfoeDyOwzMQDcTOw-okgEhp2ikSg_rvi1KQTAhQeAA_6juwo1tv80WJyXF-DmtBfszC0daTyhODN7cCzf5LA2QAAAAE9lkijAA")
     PORT = int(getenv("PORT", "8080"))
     BASE_URL = getenv("BASE_URL").rstrip('/')
-    AUTH_CHANNEL = getenv("1968459131").split(", ")
+    AUTH_CHANNEL = getenv("-1001968459131").split(", ")
     THEME = getenv("THEME", "flatly")
     USERNAME = getenv("USERNAME", "Suman")
     PASSWORD = getenv("PASSWORD", "Riyuman")
